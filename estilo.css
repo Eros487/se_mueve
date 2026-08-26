@@ -1,0 +1,20 @@
+body {
+    background-color: #FFDAFE;
+}
+
+h1 {
+    background-color: white;
+}
+
+p {
+    color: #76A82A;
+}
+
+#galeria {
+background-color: #FF9594;
+width: 50vw;
+}
+
+.foto {
+width: 40%;
+}
