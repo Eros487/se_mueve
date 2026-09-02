@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
 body {
     background-color: #FFDAFE;
+     font-family: "Cabin Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 {
@@ -7,14 +12,19 @@ h1 {
 }
 
 p {
-    color: #76A82A;
+    color: #060606;
 }
 
 #galeria {
 background-color: #FF9594;
-width: 50vw;
+border: solid #000000 5px;
+width: 70vw;
+display: flex;
+flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .foto {
-width: 40%;
+width: 45%;
 }
