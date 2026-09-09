@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
 
 body {
-    background-color: #FFDAFE;
-     font-family: "Cabin Sketch", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+   background-color: #FFDAFE;
+   font-family: "Cabin Sketch", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+
+ /*  animation-name: cambioColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    */
 }
 
 h1 {
     background-color: white;
     font-size: 5em;
+    text-align: center;
+    margin: 0;
 }
 h1:hover {
     color: #FFDAFE;
@@ -17,18 +24,20 @@ h1:hover {
 
 p {
     color: #060606;
+    text-align: center;
 }
 
 #galeria {
     background-color: #FF9594;
     border: solid #000000 5px;
     width: 70vw;
-    height: 70vh;
+    height: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: center;
+    margin: 0 auto; /*Para centrar la galería en la pantalla*/
+    padding: 10px;
 }
 
 #galeria:hover {
@@ -36,7 +45,7 @@ p {
 }
 
 .foto {
-width: 45%;
+height: 200px;
 }
 
 .elemento {
@@ -44,3 +53,11 @@ width: 45%;
     flex-direction: column;
     align-items: center;
 }
+
+/*
+@keyframes cambioColor {
+   0%  {background-color: rgb(239, 228, 19); height: 0%}
+  25%  {background-color: rgb(36, 234, 22); }
+  50%  {background-color: rgb(0, 153, 255); }
+  100% {background-color: rgb(255, 220, 24); height: 20%}
+}*/
