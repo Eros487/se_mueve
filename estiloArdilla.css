@@ -1,0 +1,31 @@
+body {
+    background-image: url(assets/gato.jpeg);
+    
+}
+
+a, a:active {
+    color: rgb(234, 51, 81);
+    font-size: 2em;
+}
+
+a:visited {
+    color: rgb(73, 156, 24);
+}
+
+a:hover {
+     color: rgb(24, 92, 156);
+}
+
+#video {
+    width: 50vw;
+    height: 50vh;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+#enlace {
+    position: fixed;
+    left:1%;
+    top:50%;
+}
